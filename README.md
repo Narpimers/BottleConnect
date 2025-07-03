@@ -71,16 +71,16 @@ The main goal is to make a simple and useful app where:
 ## Project Structure
 css
 <br>bottleconnect/
-<br>b├── backend/
-<br>b│   └── server.js
-<br>b├── frontend/
-<br>b│   └── src/
-<br>b│       ├── components/
-<br>b│       ├── pages/
-<br>b│       ├── context/
-<br>b│       ├── hooks/
-<br>b│       └── App.js
-<br>b└── README.md
+<br>├── backend/
+<br>│   └── server.js
+<br>├── frontend/
+<br>│   └── src/
+<br>│       ├── components/
+<br>│       ├── pages/
+<br>│       ├── context/
+<br>│       ├── hooks/
+<br>│       └── App.js
+<br>└── README.md
 
 
 
