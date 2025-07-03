@@ -68,15 +68,3 @@ The main goal is to make a simple and useful app where:
   "bottles": 15
 }
 
-## Project Structure
-bottleconnect/
-├── backend/
-│   └── server.js
-├── frontend/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── context/
-│       ├── hooks/
-│       └── App.js
-└── README.md
