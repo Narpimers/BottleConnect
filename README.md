@@ -58,7 +58,6 @@ The main goal is to make a simple and useful app where:
 ---
 
 ## 📋 Example Request
-
 <br>{
   <br>"id": "123e4567-e89b-12d3-a456-426614174000",
   <br>"name": "Anna",
