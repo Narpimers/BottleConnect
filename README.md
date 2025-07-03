@@ -59,13 +59,13 @@ The main goal is to make a simple and useful app where:
 
 ## 📋 Example Request
 
-{
-  "id": "123e4567-e89b-12d3-a456-426614174000",
-  "name": "Anna",
-  "phone": "+0123456789",
-  "district": "Central",
-  "bottles": 15
-}
+<br>{
+  <br>"id": "123e4567-e89b-12d3-a456-426614174000",
+  <br>"name": "Anna",
+  <br>"phone": "+0123456789",
+  <br> "district": "Central",
+  <br>"bottles": 15
+<br>}
 
 
 ## Project Structure
