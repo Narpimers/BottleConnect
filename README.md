@@ -59,7 +59,6 @@ The main goal is to make a simple and useful app where:
 
 ## 📋 Example Request
 
-```json
 {
   "id": "123e4567-e89b-12d3-a456-426614174000",
   "name": "Anna",
@@ -67,4 +66,23 @@ The main goal is to make a simple and useful app where:
   "district": "Central",
   "bottles": 15
 }
+
+
+## Project Structure
+css
+Копировать
+Редактировать
+bottleconnect/
+├── backend/
+│   └── server.js
+├── frontend/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── context/
+│       ├── hooks/
+│       └── App.js
+└── README.md
+
+
 
