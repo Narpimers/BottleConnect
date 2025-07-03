@@ -63,7 +63,7 @@ The main goal is to make a simple and useful app where:
 {
   "id": "123e4567-e89b-12d3-a456-426614174000",
   "name": "Anna",
-  "phone": "+79998887766",
+  "phone": "+0123456789",
   "district": "Central",
   "bottles": 15
 }
