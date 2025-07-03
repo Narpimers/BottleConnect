@@ -57,6 +57,23 @@ The main goal is to make a simple and useful app where:
 
 ---
 
+📁 Project Structure
+
+---
+
+<br>bottleconnect/
+<br>├── backend/
+<br>│   └── server.js
+<br>├── frontend/
+<br>│   └── src/
+<br>│       ├── components/
+<br>│       ├── pages/
+<br>│       ├── context/
+<br>│       ├── hooks/
+<br>│       └── App.js
+<br>└── README.md
+
+
 ## 📋 Example Request
 
 ```json
