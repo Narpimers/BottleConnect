@@ -70,8 +70,6 @@ The main goal is to make a simple and useful app where:
 
 ## Project Structure
 css
-Копировать
-Редактировать
 bottleconnect/
 ├── backend/
 │   └── server.js
