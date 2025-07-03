@@ -50,7 +50,7 @@ The main goal is to make a simple and useful app where:
 
 ### Pages
 
-- `/home-page` - main page to select between /submit or /pickup-list
+- `/home-page` - main page to select between `/submit` or `/pickup-list`
 - `/submit` — form for submitting a request
 - `/pickup-list` — list of requests for volunteers
 - `/details/:id` — page with full contact details after clicking "Contact"
@@ -58,28 +58,25 @@ The main goal is to make a simple and useful app where:
 ---
 
 ## 📋 Example Request
-<br>{
-  <br>"id": "123e4567-e89b-12d3-a456-426614174000",
-  <br>"name": "Anna",
-  <br>"phone": "+0123456789",
-  <br> "district": "Central",
-  <br>"bottles": 15
-<br>}
 
+```json
+{
+  "id": "123e4567-e89b-12d3-a456-426614174000",
+  "name": "Anna",
+  "phone": "+0123456789",
+  "district": "Central",
+  "bottles": 15
+}
 
 ## Project Structure
-css
-<br>bottleconnect/
-<br>├── backend/
-<br>│   └── server.js
-<br>├── frontend/
-<br>│   └── src/
-<br>│       ├── components/
-<br>│       ├── pages/
-<br>│       ├── context/
-<br>│       ├── hooks/
-<br>│       └── App.js
-<br>└── README.md
-
-
-
+bottleconnect/
+├── backend/
+│   └── server.js
+├── frontend/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── context/
+│       ├── hooks/
+│       └── App.js
+└── README.md
