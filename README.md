@@ -68,12 +68,3 @@ The main goal is to make a simple and useful app where:
   "bottles": 15
 }
 
-
-| Requirement                                      | Done |
-| ------------------------------------------------ | ---- |
-| Multiple pages and client-side routing           | ✅    |
-| Using Context API or custom hooks                | ✅    |
-| Own API (Express backend) or public API          | ✅    |
-| Functional components only (no class components) | ✅    |
-| Not based on any tutorial or code-along          | ✅    |
-| Complete and ready-to-show project with README   | ✅    |
