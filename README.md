@@ -70,17 +70,17 @@ The main goal is to make a simple and useful app where:
 
 ## Project Structure
 css
-bottleconnect/
-├── backend/
-│   └── server.js
-├── frontend/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── context/
-│       ├── hooks/
-│       └── App.js
-└── README.md
+<br>bottleconnect/
+<br>b├── backend/
+<br>b│   └── server.js
+<br>b├── frontend/
+<br>b│   └── src/
+<br>b│       ├── components/
+<br>b│       ├── pages/
+<br>b│       ├── context/
+<br>b│       ├── hooks/
+<br>b│       └── App.js
+<br>b└── README.md
 
 
 
