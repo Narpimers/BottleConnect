@@ -51,32 +51,35 @@ The main goal is to make a simple and useful app where:
 ### Pages
 
 - `/home-page` - main page to select between `/submit` or `/pickup-list`
-- `/submit` — form for submitting a request
+- `/hand-over` — form for submitting a request
 - `/pickup-list` — list of requests for volunteers
 - `/details/:id` — page with full contact details after clicking "Contact"
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
----
-
-<br>bottleconnect/
-<br>├── backend/
-<br>│   └── server.js
-<br>├── frontend/
-<br>│   └── src/
-<br>│       ├── components/
-<br>│       ├── pages/
-<br>│       ├── context/
-<br>│       ├── hooks/
-<br>│       └── App.js
-<br>└── README.md
+```{
+src/
+├── pages/
+│   ├── HomePage.jsx
+│   ├── LoginPage.jsx
+│   ├── RegisterPage.jsx
+│   ├── HandOverPage.jsx
+│   ├── PickUpPage.jsx
+│   └── PickUpDetailsPage.jsx
+├── context/
+│   └── AuthContext.jsx
+├── components/
+│   └── Navbar.jsx
+├── App.jsx
+└── main.jsx
+}
 
 
 ## 📋 Example Request
 
-```json
+json
 {
   "id": "123e4567-e89b-12d3-a456-426614174000",
   "name": "Anna",
