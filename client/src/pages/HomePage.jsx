@@ -6,7 +6,7 @@ const WelcomePage = () => {
   const { isLogin } = useContext(AuthContext);
 
   return (
-    <div className="welcome-page" style={{ textAlign: 'center', padding: '2rem' }}>
+    <div className="welcome-page">
       <h2>
         Welcome to <span id="logo-text">Bottle Connect</span>
       </h2>

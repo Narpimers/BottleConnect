@@ -31,11 +31,11 @@ const RegisterPage = () => {
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ newUser: formData })  // отправляем без id
+        body: JSON.stringify({ newUser: formData })
       });
 
       if (response.status === 409) {
-        setErrorMessage('A user with this username already exists.');
+        setErrorMessage('A user name already taken.');
         return;
       }
 
@@ -45,8 +45,7 @@ const RegisterPage = () => {
 
       navigate('/login');
     } catch (error) {
-      console.error('Registration error:', error);
-      setErrorMessage('Registration error. Please try again later.');
+      setErrorMessage(`Registration error: ${error}. Please try again later.`);
     }
   };
 

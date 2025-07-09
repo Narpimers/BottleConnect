@@ -36,7 +36,7 @@ const LoginPage = () => {
       const data = await response.json(); 
 
       if (!response.ok) {
-        throw new Error(data.message || 'Login failed');
+        throw new Error(data.message);
       }
 
       if (data.token) {
@@ -47,8 +47,7 @@ const LoginPage = () => {
       }
 
     } catch (error) {
-      console.error('Login error:', error);
-      setErrorMessage(error.message || 'Login failed');
+      setErrorMessage(error.message);
     }
   };
 

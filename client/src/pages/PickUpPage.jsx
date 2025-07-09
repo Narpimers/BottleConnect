@@ -1,26 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import BackButton from '../components/BackButton';
+import useFetch from '../hooks/useFetchAds';
 
 const PickUpPage = () => {
-  const [announcements, setAnnouncements] = useState([]);
-  const [error, setError] = useState('');
-
-  const fetchAds = () => {
-    fetch('http://localhost:3000/api/all-ads')
-      .then(async res => {
-        if (!res.ok) {
-          const errorData = await res.json();
-          throw new Error(errorData.message || 'Failed to fetch announcements');
-        }
-        return res.json();
-      })
-      .then(data => setAnnouncements(data))
-      .catch(err => setError(err.message));
-  };
-
-  useEffect(() => {
-    fetchAds();
-  }, []);
+  const { data: announcements, error, loading } = useFetch('http://localhost:3000/api/all-ads');
 
   const handleDetails = (id) => {
     const item = announcements.find(ann => ann.id === id);
@@ -31,6 +14,7 @@ const PickUpPage = () => {
     <div className="welcome-page">
       <h1 id="welcome-cap">Pick Up</h1>
 
+      {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
 
       <ul className="announcement-list">
