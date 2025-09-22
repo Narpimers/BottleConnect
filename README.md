@@ -1,4 +1,4 @@
-# ♻️ BottleConnect — Bottle Recycling Through Volunteers
+# ♻️ BottleConnect
 
 ## 🧠 Project Idea
 
